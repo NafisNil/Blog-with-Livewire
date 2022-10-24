@@ -27,14 +27,14 @@
 {{--tags--}}
 
         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-            <x-jet-nav-link href="{{ route('dashboard.index') }}" :active="request()->routeIs('dashboard.index')">
+            <x-jet-nav-link href="{{ route('tags.index') }}" :active="request()->routeIs('tags.index')">
                 {{ __('tags') }}
             </x-jet-nav-link>
         </div>
   
 {{--posts--}}
     <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
-        <x-jet-nav-link href="{{ route('dashboard.index') }}" :active="request()->routeIs('dashboard.index')">
+        <x-jet-nav-link href="{{ route('posts.index') }}" :active="request()->routeIs('posts.index')">
             {{ __('Posts') }}
         </x-jet-nav-link>
     </div>
